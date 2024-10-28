@@ -32,20 +32,20 @@ function LightDark() {
     main.classList.replace("dark", "light");
     Circle[0].classList.replace("left-1", "left-7");
     Circle[1].classList.replace("left-1", "left-7");
-    Img[0].src = `../icon/LogoLight.png`;
-    Img[1].src = `../icon/Portal2.png`;
-    Img[2].src = `../icon/Dawn2.png`;
-    Img[3].src = `../icon/Dawn2.png`;
-    Img[4].src = `../icon/back2.png`;
+    Img[0].src = `./icon/LogoLight.png`;
+    Img[1].src = `./icon/Portal2.png`;
+    Img[2].src = `./icon/Dawn2.png`;
+    Img[3].src = `./icon/Dawn2.png`;
+    Img[4].src = `./icon/back2.png`;
   } else {
     main.classList.replace("light", "dark");
     Circle[0].classList.replace("left-7", "left-1");
     Circle[1].classList.replace("left-7", "left-1");
-    Img[0].src = `../icon/Logo.png`;
-    Img[1].src = `../icon/Portal.png`;
-    Img[2].src = `../icon/Dawn.png`;
-    Img[3].src = `../icon/Dawn.png`;
-    Img[4].src = `../icon/back.png`;
+    Img[0].src = `./icon/Logo.png`;
+    Img[1].src = `./icon/Portal.png`;
+    Img[2].src = `./icon/Dawn.png`;
+    Img[3].src = `./icon/Dawn.png`;
+    Img[4].src = `./icon/back.png`;
   }
 }
 
