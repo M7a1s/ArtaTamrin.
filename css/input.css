@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Gotham";
+    src: url(../font/Gotham-font-family/Gotham/Gotham-Medium.otf), format(otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Anton";
+    src: url(../font/Anton-Regular.ttf), format(truetype);
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Poppins", sans-serif;
+    src: url(../font/po/Poppins-Regular.ttf), format(truetype);
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  * {
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+  }
+
+  #backnav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(50, 50, 50, 0.74);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.6px);
+    -webkit-backdrop-filter: blur(9.6px);
+    z-index: 30;
+  }
+}
+
+@layer components {
+  .Anav {
+    @apply text-xl text-[#292929] dark:text-white;
+  }
+
+  .backSocial {
+    @apply mobile:w-10 mobile:h-10 tablet:w-[52px] tablet:h-[52px] flex flex-row justify-center items-center border border-[#292929] dark:border-white rounded-xl cursor-pointer;
+  }
+
+  .txtsocial {
+    @apply text-[#292929] dark:text-white mobile:text-2xl tablet:text-4xl;
+  }
+
+  .pInfo {
+    @apply mobile:text-6xl desktop:text-9xl text-[#64C661] dark:text-[#C8FEC7] font-Anton mobile:text-center desktop:text-left;
+  }
+
+  .h2Info {
+    @apply capitalize mobile:text-2xl desktop:text-4xl text-[#64C661] dark:text-[#C8FEC7] font-black mobile:text-center desktop:text-left;
+  }
+
+  .loc {
+    @apply text-6xl text-black dark:text-white font-Anton;
+  }
+
+  .card {
+    @apply flex flex-col justify-between mobile:w-[280px] mobile:items-center tablet:items-start tablet:w-[330px] desktop:w-[360px] h-[419px] bg-white border border-black dark:bg-[#0B0B0B] dark:border-[#737373] rounded-[10px] p-8;
+  }
+
+  .h4Card {
+    @apply text-3xl font-bold text-[#292929] dark:text-white;
+  }
+
+  .flrr-tag {
+    @apply flex flex-row justify-center items-center gap-x-1.5;
+  }
+
+  .tag {
+    @apply flex justify-center items-center mobile:w-20 desktop:w-[84px] h-6 bg-[#E9DFFC] border border-[#BE9FF6] text-sm rounded-xl text-[#784DC7] font-light;
+  }
+
+  .card2 {
+    @apply relative flex mobile:flex-col tablet:flex-row justify-start items-center gap-5 mobile:w-[280px] mobile:h-[536px] tablet:w-[864px] tablet:h-80 desktop:w-[755px] border border-[#0B0B0B] bg-white dark:bg-[#0B0B0B] dark:border-[#737373] rounded-[10px] p-10 transition-all duration-300;
+  }
+
+  .h5card2 {
+    @apply w-full mobile:text-4xl desktop:text-6xl text-[#292929] dark:text-white font-black mobile:text-center tablet:text-left;
+  }
+
+  .infocard2 {
+    @apply mobile:text-sm tablet:text-xl text-[#292929] dark:text-white mobile:text-center tablet:text-left;
+  }
+}

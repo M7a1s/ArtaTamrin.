@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" id="main" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Artabtw">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./node_modules/boxicons/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body class="flex flex-col justify-start items-center overflow-x-hidden w-screen bg-white select-none font-Gotham dark:bg-black mobile:px-5 tablet:px-3 desktop:px-24">
+
+    <header class="w-full h-32 flex flex-row justify-between items-center">
+        <div class="w-[210px] flex flex-row justify-start items-center">
+            <a href="./index.html">
+                <img src="./icon/Logo.png" alt="Logo" class="Img">
+            </a>
+        </div>
+
+        <div>
+            <div id="backnav" class="pointer-events-none opacity-0 transition-all duration-300"></div>
+
+            <nav id="navHeader" class="flex flex-row justify-center items-center gap-7 right-0 top-0 mobile:bg-white mobile:dark:bg-black mobile:h-screen mobile:w-0 mobile:justify-start mobile:py-10 mobile:flex-col mobile:absolute tablet:flex tablet:relative tablet:flex-row tablet:h-fit tablet:w-fit overflow-hidden z-50">
+                <a href="#" class="Anav">Home</a>
+                <a href="#" class="Anav">Portfolio</a>
+                <a href="#" class="Anav">Skills</a>
+                <a href="#" class="Anav">About Me</a>
+    
+                <button class="btnLightDark w-14 h-8 rounded-full relative flex flex-row justify-between items-center px-1 bg-[#051724] dark:bg-[#FFEC70] mobile:flex tablet:hidden">
+                    <div class="circle w-6 h-6 bg-white absolute left-1 rounded-full"></div>
+                    <img src="./icon/sun.png" alt="Sun">
+                    <img src="./icon/moon.png" alt="moon">
+                </button>
+    
+                <button class="justify-center items-center w-[133px] h-10 rounded text-base text-white bg-[#292929] dark:bg-[#925FF0] mobile:flex tablet:hidden">Contact me</button>
+            </nav>
+        </div>
+
+        <div class="flex flex-row justify-center items-center w-[210px] gap-x-5 mobile:hidden tablet:flex">
+            <button class="btnLightDark w-14 h-8 rounded-full relative flex flex-row justify-between items-center px-1 bg-[#051724] dark:bg-[#FFEC70]">
+                <div class="circle w-6 h-6 bg-white absolute left-1 rounded-full"></div>
+                <img src="./icon/sun.png" alt="Sun">
+                <img src="./icon/moon.png" alt="moon">
+            </button>
+
+            <button class="w-[133px] h-10 rounded text-base text-white bg-[#292929] dark:bg-[#925FF0]">Contact me</button>
+        </div>
+
+        <i id="MenuList" class="bi bi-list text-4xl text-[#292929] dark:text-white right-5 mobile:block mobile:absolute tablet:hidden z-50"></i>
+    </header>
+
+    <div class="mt-16 w-full flex flex-row justify-between items-end mobile:justify-center desktop:justify-between relative">
+        <div class="flex flex-col justify-start mobile:items-center desktop:items-start">
+            <h1 class="font-Anton text-[#292929] dark:text-white mobile:text-center mobile:text-[90px] tablet:text-[200px] desktop:text-left">PRODUCT<br>DESIGNER
+            </h1>
+    
+            <p class="bg-gradient-to-r from-[#FA709A] to-[#FEE140] inline-block text-transparent bg-clip-text font-Anton mt-2.5 mobile:text-center mobile:text-5xl tablet:text-[114px] desktop:text-left">CRISTIAN MUÑOZ</p>
+
+            <div class="flex flex-row w-full justify-between items-center mt-[70px] mobile:px-5">
+                <div class="backSocial">
+                    <i class="bi bi-instagram txtsocial"></i>
+                </div>
+
+                <div class="backSocial">
+                    <i class='bx bxl-figma txtsocial'></i>
+                </div>
+
+                <div class="backSocial">
+                    <i class='bi bi-linkedin txtsocial'></i>
+                </div>
+
+                <div class="backSocial">
+                    <i class='bi bi-twitter txtsocial'></i>
+                </div>
+
+                <div class="backSocial">
+                    <i class='bx bxl-telegram txtsocial'></i>
+                </div>
+
+                <div class="backSocial">
+                    <i class='bi bi-discord txtsocial'></i>
+                </div>
+
+            </div>
+
+            <button class="w-full h-[52px] mobile:text-base tablet:text-xl text-white bg-[#292929] mt-10 flex flex-row justify-center items-center gap-x-2 rounded hover:bg-[#646464]">
+                Download Curriculum Vitae
+                <i class="bi bi-arrow-down-circle"></i>
+            </button>
+        </div>
+
+        <img src="./icon/Portal.png" alt="Portal" class="Img pointer-events-none absolute left-1/2 -translate-x-1/2 top-0 mobile:hidden desktop:block">
+
+        <img src="./icon/colorful-vintage-collage-design 1.png" alt="IDK" class="pointer-events-none w-[694px] h-[778px] mobile:hidden desktop:block">
+
+    </div>
+
+    <div class="flex flex-row justify-between items-center w-full rounded-[29px] bg-[#DFFFDE] dark:bg-[#0B0B0B] border border-black dark:border-[#646464] mobile:flex-col mobile:h-[821px] mobile:px-12 tablet:flex-row tablet:h-[372px] desktop:px-24 py-20 mt-36">
+        <div class="flex flex-col justify-start gap-y-5 mobile:items-center desktop:items-start">
+            <p class="pInfo">90%</p>
+            <h2 class="h2Info">Job Success<br>Score on Upwork</h2>
+        </div>
+
+        <img src="./icon/Dawn.png" alt="Dawn" class="Img pointer-events-none mobile:hidden desktop:block">
+
+        <div class="flex flex-col justify-start gap-y-5 mobile:items-center desktop:items-start">
+            <p class="pInfo">25.000</p>
+            <h2 class="h2Info">Duplicates on Figma<br>Community</h2>
+        </div>
+
+        <img src="./icon/Dawn.png" alt="Dawn" class="Img pointer-events-none mobile:hidden desktop:block">
+
+        <div class="flex flex-col justify-start gap-y-5 mobile:items-center desktop:items-start">
+            <p class="pInfo">2k</p>
+            <h2 class="h2Info">In Finished Works</h2>
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-start gap-y-9 w-full mt-52 mobile:items-center tablet:items-start tablet:px-32 desktop:px-0">
+        <h3 class="loc">PORTFOLIO</h3>
+
+        <div class="grid justify-between items-center mobile:w-fit tablet:w-full gap-8 mobile:grid-cols-[auto] tablet:grid-cols-[auto_auto] desktop:grid-cols-[auto_auto_auto_auto]">
+            <div class="card">
+                <img src="./icon/Frame 7.png" alt="Mi portal U" class="pointer-events-none">
+                <h4 class="h4Card">Mi portal U</h4>
+                
+                <div class="flrr-tag">
+                    <div class="tag">UX Design</div>
+                    <div class="tag">University</div>
+                    <div class="tag">JavaScript</div>
+                </div>
+
+                <button class="w-full h-[40px] mobile:text-base tablet:text-xl text-white bg-[#292929] flex flex-row justify-center items-center gap-x-2 rounded hover:bg-[#646464]">Figma community</button>
+            </div>
+
+            <div class="card">
+                <img src="./icon/Frame 7.png" alt="Mi portal U" class="pointer-events-none">
+                <h4 class="h4Card">Mi portal U</h4>
+                
+                <div class="flrr-tag">
+                    <div class="tag">UX Design</div>
+                    <div class="tag">University</div>
+                    <div class="tag">JavaScript</div>
+                </div>
+
+                <button class="w-full h-[40px] mobile:text-base tablet:text-xl text-white bg-[#292929] flex flex-row justify-center items-center gap-x-2 rounded hover:bg-[#646464]">Figma community</button>
+            </div>
+
+            <div class="card">
+                <img src="./icon/Frame 7.png" alt="Mi portal U" class="pointer-events-none">
+                <h4 class="h4Card">Mi portal U</h4>
+                
+                <div class="flrr-tag">
+                    <div class="tag">UX Design</div>
+                    <div class="tag">University</div>
+                    <div class="tag">JavaScript</div>
+                </div>
+
+                <button class="w-full h-[40px] mobile:text-base tablet:text-xl text-white bg-[#292929] flex flex-row justify-center items-center gap-x-2 rounded hover:bg-[#646464]">Figma community</button>
+            </div>
+
+            <div class="card">
+                <img src="./icon/Frame 7.png" alt="Mi portal U" class="pointer-events-none">
+                <h4 class="h4Card">Mi portal U</h4>
+                
+                <div class="flrr-tag">
+                    <div class="tag">UX Design</div>
+                    <div class="tag">University</div>
+                    <div class="tag">JavaScript</div>
+                </div>
+
+                <button class="w-full h-[40px] mobile:text-base tablet:text-xl text-white bg-[#292929] flex flex-row justify-center items-center gap-x-2 rounded hover:bg-[#646464]">Figma community</button>
+            </div>
+
+            <div class="card mobile:hidden desktop:flex">
+                <img src="./icon/Frame 7.png" alt="Mi portal U" class="pointer-events-none">
+                <h4 class="h4Card">Mi portal U</h4>
+                
+                <div class="flrr-tag">
+                    <div class="tag">UX Design</div>
+                    <div class="tag">University</div>
+                    <div class="tag">JavaScript</div>
+                </div>
+
+                <button class="w-full h-[40px] mobile:text-base tablet:text-xl text-white bg-[#292929] flex flex-row justify-center items-center gap-x-2 rounded hover:bg-[#646464]">Figma community</button>
+            </div>
+
+            <div class="card mobile:hidden desktop:flex">
+                <img src="./icon/Frame 7.png" alt="Mi portal U" class="pointer-events-none">
+                <h4 class="h4Card">Mi portal U</h4>
+                
+                <div class="flrr-tag">
+                    <div class="tag">UX Design</div>
+                    <div class="tag">University</div>
+                    <div class="tag">JavaScript</div>
+                </div>
+
+                <button class="w-full h-[40px] mobile:text-base tablet:text-xl text-white bg-[#292929] flex flex-row justify-center items-center gap-x-2 rounded hover:bg-[#646464]">Figma community</button>
+            </div>
+
+            <div class="card mobile:hidden desktop:flex">
+                <img src="./icon/Frame 7.png" alt="Mi portal U" class="pointer-events-none">
+                <h4 class="h4Card">Mi portal U</h4>
+                
+                <div class="flrr-tag">
+                    <div class="tag">UX Design</div>
+                    <div class="tag">University</div>
+                    <div class="tag">JavaScript</div>
+                </div>
+
+                <button class="w-full h-[40px] mobile:text-base tablet:text-xl text-white bg-[#292929] flex flex-row justify-center items-center gap-x-2 rounded hover:bg-[#646464]">Figma community</button>
+            </div>
+
+            <div class="card mobile:hidden desktop:flex">
+                <img src="./icon/Frame 7.png" alt="Mi portal U" class="pointer-events-none">
+                <h4 class="h4Card">Mi portal U</h4>
+                
+                <div class="flrr-tag">
+                    <div class="tag">UX Design</div>
+                    <div class="tag">University</div>
+                    <div class="tag">JavaScript</div>
+                </div>
+
+                <button class="w-full h-[40px] mobile:text-base tablet:text-xl text-white bg-[#292929] flex flex-row justify-center items-center gap-x-2 rounded hover:bg-[#646464]">Figma community</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-start gap-y-9 w-full mt-52 mobile:items-center desktop:items-start tablet:px-32 desktop:px-0">
+        <h3 class="loc">SKILLS</h3>
+
+        <div class="grid justify-between items-center mobile:w-fit desktop:w-full gap-5 mobile:grid-cols-[auto] desktop:grid-cols-[auto_auto]">
+            <div class="card2">
+                <div class="pointer-events-none relative w-full flex justify-center items-center">
+                    <p class="text-4xl font-black text-[#292929] dark:text-white absolute">97%</p>
+                    <img src="./icon/Graph1.png" alt="Graph1" class="w-full">
+                </div>
+                <div class="flex flex-col justify-start items-start gap-5">
+                    <h5 class="h5card2">UX Design</h5>
+                    <p class="infocard2">UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.</p>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="pointer-events-none relative w-full flex justify-center items-center">
+                    <p class="text-4xl font-black text-[#292929] dark:text-white absolute">99%</p>
+                    <img src="./icon/Graph2.png" alt="Graph2" class="w-full">
+                </div>
+                <div class="flex flex-col justify-start items-start gap-5">
+                    <h5 class="h5card2">UI Design</h5>
+                    <p class="infocard2">UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.</p>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="pointer-events-none relative w-full flex justify-center items-center">
+                    <p class="text-4xl font-black text-[#292929] dark:text-white absolute">83%</p>
+                    <img src="./icon/Graph3.png" alt="Graph3" class="w-full">
+                </div>
+                <div class="flex flex-col justify-start items-start gap-5">
+                    <h5 class="h5card2">Information Architecture</h5>
+                    <p class="infocard2">Information architecture is the design of the structure and organization of content on a website or digital product to make it easy for users to navigate and understand.</p>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="pointer-events-none relative w-full flex justify-center items-center">
+                    <p class="text-4xl font-black text-[#292929] dark:text-white absolute">92%</p>
+                    <img src="./icon/Graph4.png" alt="Graph4" class="w-full">
+                </div>
+                <div class="flex flex-col justify-start items-start gap-5">
+                    <h5 class="h5card2">Figma</h5>
+                    <p class="infocard2">Figma is a cloud-based design tool that allows teams to collaborate on the design process in real time. It offers a range of features for designing, prototyping, and sharing user interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-screen h-[800px] relative mt-52 flex flex-col justify-center items-center gap-y-16 px-10">
+        <img class="Img absolute left-0 top-0 w-full h-full -z-10 pointer-events-none" src="./icon/back.png" alt="Back">
+        <p class="text-center mobile:text-2xl tablet:text-[40px] desktop:text-5xl font-Poppins font-semibold text-white">Kaleb Lechtenberg</p>
+
+        <p class="text-center mobile:text-2xl tablet:text-[40px] desktop:text-5xl font-Poppins font-semibold text-white">"Working with this freelancer has been great. His attention to detail is unparalleled and finished all work ahead of schedule. Will gladly send more work and I do not hesitate to recommend him to you on your project also."</p>
+
+        <i class="bi bi-shield-fill text-9xl text-white"></i>
+    </div>
+
+
+    <div class="w-screen h-72 bg-[#292929] relative mt-52">
+        <div class="w-full h-full absolute top-0 left-0 bg-[#292929]">
+            <footer class="flex flex-col justify-between items-center h-[80%] py-10 border-b border-white">
+                <a href="./index.html">
+                    <img src="./icon/Logo2.png" alt="Logo">
+                    <nav class="navfooter w-full flex flex-row justify-center items-center gap-x-8 mobile:px-2 tablet:px-20 desktop:px-96">
+                        <a href="#" class="text-white mobile:text-sm tablet:text-xl">Home</a>
+                        <a href="#" class="text-white mobile:text-sm tablet:text-xl">Portfolio</a>
+                        <a href="#" class="text-white mobile:text-sm tablet:text-xl">Skills</a>
+                        <a href="#" class="text-white mobile:text-sm tablet:text-xl">About Me</a>
+                    </nav>
+                </a>
+            </footer>
+
+            <p class="w-full h-[20%] flex justify-center items-center text-white">TAMRIN ☘</p>
+        </div>
+
+    </div>
+
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>

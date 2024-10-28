@@ -1,0 +1,20 @@
+{
+  "name": "figma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "npx tailwindcss -i ./css/input.css -o ./css/index.css --watch"
+  },
+  "keywords": [],
+  "author": "Artabtw",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "boxicons": "^2.1.4"
+  }
+}
