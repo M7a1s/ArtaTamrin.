@@ -92,17 +92,3 @@ backnav.addEventListener("click", () => {
   MenuList.classList.replace("right-2", "right-5");
   RemoveCheck();
 });
-
-document.addEventListener(
-  "touchstart",
-  function (e) {
-    if (e.touches.length > 1) {
-      e.preventDefault(); // Prevent zooming if two fingers are used
-    }
-  },
-  { passive: false }
-);
-
-document.addEventListener("gesturestart", function (e) {
-  e.preventDefault(); // Prevent zooming gestures
-});
